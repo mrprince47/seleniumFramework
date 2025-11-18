@@ -1,21 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-13T03:08:26 IST" name="Default suite" finished-at="2025-10-13T03:08:30 IST" duration-ms="4596">
+  <suite started-at="2025-11-18T23:47:52 IST" name="Suite" finished-at="2025-11-18T23:48:19 IST" duration-ms="26522">
     <groups>
     </groups>
-    <test started-at="2025-10-13T03:08:26 IST" name="Default test" finished-at="2025-10-13T03:08:30 IST" duration-ms="4596">
+    <test started-at="2025-11-18T23:47:52 IST" name="Test" finished-at="2025-11-18T23:48:19 IST" duration-ms="26522">
       <class name="testClasses.TC001_Registration">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@51399530]" started-at="2025-10-13T03:08:26 IST" name="setup" finished-at="2025-10-13T03:08:30 IST" duration-ms="4064" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:47:52 IST" name="setup" finished-at="2025-11-18T23:48:00 IST" duration-ms="7601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="enterFname()[pri:0, instance:testClasses.TC001_Registration@51399530]" started-at="2025-10-13T03:08:30 IST" name="enterFname" finished-at="2025-10-13T03:08:30 IST" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:00 IST" name="pageSetup" finished-at="2025-11-18T23:48:00 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="enterFname()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:00 IST" name="enterFname" finished-at="2025-11-18T23:48:00 IST" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFname -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:00 IST" name="tearDown" finished-at="2025-11-18T23:48:00 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:00 IST" name="setup" finished-at="2025-11-18T23:48:04 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:04 IST" name="pageSetup" finished-at="2025-11-18T23:48:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="enterLname()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:04 IST" name="enterLname" finished-at="2025-11-18T23:48:05 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLname -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:05 IST" name="tearDown" finished-at="2025-11-18T23:48:05 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:05 IST" name="setup" finished-at="2025-11-18T23:48:08 IST" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:08 IST" name="pageSetup" finished-at="2025-11-18T23:48:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyErrorWhenMandatoryFieldsMissing()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:08 IST" name="verifyErrorWhenMandatoryFieldsMissing" finished-at="2025-11-18T23:48:09 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorWhenMandatoryFieldsMissing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:09 IST" name="tearDown" finished-at="2025-11-18T23:48:09 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:09 IST" name="setup" finished-at="2025-11-18T23:48:13 IST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegistrationPageHeading()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:13 IST" name="verifyRegistrationPageHeading" finished-at="2025-11-18T23:48:14 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPageHeading -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:13 IST" name="pageSetup" finished-at="2025-11-18T23:48:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:14 IST" name="tearDown" finished-at="2025-11-18T23:48:14 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:14 IST" name="setup" finished-at="2025-11-18T23:48:17 IST" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:17 IST" name="pageSetup" finished-at="2025-11-18T23:48:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyUserCanRegisterSuccessfully()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:17 IST" name="verifyUserCanRegisterSuccessfully" finished-at="2025-11-18T23:48:18 IST" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanRegisterSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@71812481]" started-at="2025-11-18T23:48:18 IST" name="tearDown" finished-at="2025-11-18T23:48:19 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testClasses.TC001_Registration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testClasses.TC002_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:47:52 IST" name="setup" finished-at="2025-11-18T23:48:00 IST" duration-ms="7878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:00 IST" name="setupPages" finished-at="2025-11-18T23:48:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:00 IST" name="VerifySuccessfullLogin" finished-at="2025-11-18T23:48:01 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:01 IST" name="tearDown" finished-at="2025-11-18T23:48:01 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:01 IST" name="setup" finished-at="2025-11-18T23:48:05 IST" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:05 IST" name="setupPages" finished-at="2025-11-18T23:48:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyTitle()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:05 IST" name="verifyTitle" finished-at="2025-11-18T23:48:05 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@4982cc36]" started-at="2025-11-18T23:48:05 IST" name="tearDown" finished-at="2025-11-18T23:48:05 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.TC002_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -5,8 +5,10 @@
     <classes>
       <class name="testClasses.TC001_Registration">
         <methods>
-          <include name="enterFname"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="pageSetup"/>
+          <include name="verifyUserCanRegisterSuccessfully"/>
         </methods>
       </class> <!-- testClasses.TC001_Registration -->
     </classes>
