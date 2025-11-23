@@ -5,58 +5,75 @@ import java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.time.Duration;
 import java.util.Properties;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.annotations.*;
 
 public class BaseTest {
-    
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    private static ThreadLocal<WebDriver> driverThread = new ThreadLocal<>();
+    public WebDriver driver; // Needed for ExtentManager reflection
+
     public static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
     protected Properties prop;
-    
+
     @BeforeMethod(alwaysRun = true)
-    public void setup() throws IOException {
+    @Parameters("browser")
+    public void setup(String br) throws IOException {
+        // Load properties
         prop = new Properties();
         FileInputStream fis = new FileInputStream("src/test/resources/config.properties");
         prop.load(fis);
         fis.close();
-        
-        String br = "chrome";
-        
-        switch (br) {
+
+        // Initialize browser
+        WebDriver localDriver;
+        switch (br.toLowerCase()) {
             case "chrome":
-                driver.set(new ChromeDriver());
+                localDriver = new ChromeDriver();
                 break;
             case "edge":
-                driver.set(new EdgeDriver());
+                localDriver = new EdgeDriver();
                 break;
             case "firefox":
-                driver.set(new FirefoxDriver());
+                localDriver = new FirefoxDriver();
                 break;
             default:
-                throw new RuntimeException("Invalid browser name: " + br);
+                throw new RuntimeException("Invalid browser: " + br);
         }
-        
-        getDriver().manage().window().maximize();
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
-        
-        getDriver().get(prop.getProperty("url"));
+
+        // Set ThreadLocal and public driver
+        driverThread.set(localDriver);
+        this.driver = localDriver;
+
+        // Maximize and set timeouts
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        // Open URL from properties
+        driver.get(prop.getProperty("url"));
+
+        logger.info("Browser initialized: " + br);
     }
-    
+
+    // Thread-safe getter for WebDriver
     public static WebDriver getDriver() {
-        return driver.get();
+        return driverThread.get();
     }
-    
+
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        if (driver.get() != null) {
-            driver.get().quit();
-            driver.remove();
+        if (driverThread.get() != null) {
+            driverThread.get().quit();
+            driverThread.remove();
+            logger.info("Browser closed");
         }
     }
 }

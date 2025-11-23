@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,6 +19,12 @@ public class Login extends BasePage {
 	WebElement txtPassword;
 	@FindBy(xpath = "//input[@type='submit' and @value='Login']")
 	WebElement btnLogin;
+	@FindBy(css = ".alert-danger")
+	WebElement alertMessage;
+
+	public boolean isErrorDisplayed() {
+	    return driver.findElements(By.cssSelector(".alert-danger")).size() > 0;
+	}
 
 	public void setEmail(String email) {
 		txtEmail.sendKeys(email);

@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
+
     <Appenders>
 
-        <!-- ✅ Console output -->
+        <!-- ========== CLEAN CONSOLE OUTPUT ========== -->
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="[%d{HH:mm:ss}] %-5p %c{1}:%L - %m%n"/>
-        </Console>
+        <PatternLayout pattern="[%t] %d{HH:mm:ss} %-5p - %m%n"/>
+    </Console>
 
-        <!-- ✅ Rolling File output -->
-        <RollingFile name="RollingFile"
-                     fileName="logs/selenium.log"
-                     filePattern="logs/selenium-%d{yyyy-MM-dd}.log.gz">
-            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5p %c{1}:%L - %m%n"/>
+        <!-- ========== FULL DEBUG FILE LOGS ========== -->
+        <RollingFile name="File"
+                     fileName="logs/framework.log"
+                     filePattern="logs/framework-%d{yyyy-MM-dd}.log.gz">
+
+            <!-- Detailed + precise format -->
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5p %c:%L - %m%n"/>
 
             <Policies>
-                <!-- Create a new file every day -->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <!-- Roll over if file > 4MB -->
-                <SizeBasedTriggeringPolicy size="4MB"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
             </Policies>
 
-            <!-- Keep only the last 7 rolled files -->
-            <DefaultRolloverStrategy max="7"/>
+            <DefaultRolloverStrategy max="10"/>
         </RollingFile>
 
     </Appenders>
 
     <Loggers>
-        
-        <Logger name="org.testng" level="debug" additivity="false">
-    <AppenderRef ref="Console"/>
-    <AppenderRef ref="RollingFile"/>
-</Logger>
 
-<Logger name="org.openqa.selenium" level="info" additivity="false">
-    <AppenderRef ref="Console"/>
-    <AppenderRef ref="RollingFile"/>
-</Logger>
-        <!-- Root logger: writes to both console and rolling file -->
-        <Root level="info">
+        <!-- ========== STOP ALL TESTNG LOGS ========== -->
+        <Logger name="org.testng" level="off" additivity="false"/>
+
+        <!-- ========== STOP SELENIUM INTERNAL LOGS ========== -->
+        <Logger name="org.openqa.selenium" level="error" additivity="false"/>
+
+        <!-- ========== YOUR FRAMEWORK LOGS ========== -->
+        <!-- Any class under package 'tests', 'base', 'utilities' -->
+        <Logger name="tests" level="info" additivity="false">
             <AppenderRef ref="Console"/>
-            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="base" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="utilities" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- ========== ROOT LOGGER (fallback) ========== -->
+        <!-- If something still logs, we show only WARN+ in console -->
+        <Root level="warn">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
         </Root>
+
     </Loggers>
+
 </Configuration>

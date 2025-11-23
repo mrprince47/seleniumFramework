@@ -15,7 +15,7 @@ public class TC001_Registration extends BaseTest {
 	Registration reg;
 	String timestamp = java.time.LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
 
-	@BeforeMethod
+	@BeforeMethod(groups = "sanity")
 	public void pageSetup() {
 		home = new Home(getDriver());
 
@@ -24,7 +24,7 @@ public class TC001_Registration extends BaseTest {
 
 	}
 
-	@Test
+	@Test(groups = "sanity")
 	void enterFname() {
 		logger.info("clicked register");
 		home.clicMyAccount();

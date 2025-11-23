@@ -17,4 +17,23 @@ public class MyAccount extends BasePage{
 @FindBy(xpath = "//p[text()='You have been logged off your account. It is now safe to leave the computer.']") WebElement logoutCnfMsg;
 
 
+public boolean myAccHeading()
+{
+
+return headingAndTitle.isDisplayed();	
+}
+
+public void logoutAcc()
+{
+	logout.click();
+
+}
+
+public boolean isLoggedOut()
+{
+return logoutCnfMsg.isDisplayed();
+}
+
+
+
 }
