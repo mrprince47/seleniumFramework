@@ -15,7 +15,7 @@
 
   <test thread-count="5" name="Test" parallel="classes">
     <classes>
-      <class name="testClasses.TC001_Registration"/>
+      <!--class name="testClasses.TC001_Registration"/-->
       <class name="testClasses.TC002_Login"/>
     </classes>
   </test>

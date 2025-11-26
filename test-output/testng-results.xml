@@ -1,134 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="3" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-23T21:15:48 IST" name="Suite" finished-at="2025-11-23T21:16:52 IST" duration-ms="63996">
+  <suite started-at="2025-11-27T01:29:59 IST" name="CrossBrowserSuite" finished-at="2025-11-27T01:31:22 IST" duration-ms="82917">
     <groups>
       <group name="sanity">
-        <method signature="TC001_Registration.enterFname()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" name="enterFname" class="testClasses.TC001_Registration"/>
-        <method signature="TC002_Login.verifyTitle()[pri:0, instance:testClasses.TC002_Login@503ecb24]" name="verifyTitle" class="testClasses.TC002_Login"/>
+        <method signature="TC002_Login.verifyTitle()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" name="verifyTitle" class="testClasses.TC002_Login"/>
+        <method signature="TC002_Login.verifyTitle()[pri:0, instance:testClasses.TC002_Login@253d9f73]" name="verifyTitle" class="testClasses.TC002_Login"/>
+        <method signature="TC002_Login.verifyTitle()[pri:0, instance:testClasses.TC002_Login@331acdad]" name="verifyTitle" class="testClasses.TC002_Login"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-11-23T21:15:48 IST" name="Test" finished-at="2025-11-23T21:16:52 IST" duration-ms="63996">
-      <class name="testClasses.TC001_Registration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:15:49 IST" name="setup" finished-at="2025-11-23T21:16:00 IST" duration-ms="11456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:00 IST" name="pageSetup" finished-at="2025-11-23T21:16:00 IST" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="enterFname()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:00 IST" name="enterFname" finished-at="2025-11-23T21:16:02 IST" duration-ms="2124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterFname -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:02 IST" name="tearDown" finished-at="2025-11-23T21:16:03 IST" duration-ms="295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:03 IST" name="setup" finished-at="2025-11-23T21:16:06 IST" duration-ms="3372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:06 IST" name="pageSetup" finished-at="2025-11-23T21:16:06 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="enterLname()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:06 IST" name="enterLname" finished-at="2025-11-23T21:16:07 IST" duration-ms="739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterLname -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:07 IST" name="tearDown" finished-at="2025-11-23T21:16:07 IST" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:07 IST" name="setup" finished-at="2025-11-23T21:16:12 IST" duration-ms="4934" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:12 IST" name="pageSetup" finished-at="2025-11-23T21:16:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="verifyErrorWhenMandatoryFieldsMissing()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:12 IST" name="verifyErrorWhenMandatoryFieldsMissing" finished-at="2025-11-23T21:16:14 IST" duration-ms="1989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyErrorWhenMandatoryFieldsMissing -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:14 IST" name="tearDown" finished-at="2025-11-23T21:16:14 IST" duration-ms="355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:14 IST" name="setup" finished-at="2025-11-23T21:16:19 IST" duration-ms="4240" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:19 IST" name="pageSetup" finished-at="2025-11-23T21:16:19 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="verifyRegistrationPageHeading()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:19 IST" name="verifyRegistrationPageHeading" finished-at="2025-11-23T21:16:19 IST" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistrationPageHeading -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:19 IST" name="tearDown" finished-at="2025-11-23T21:16:20 IST" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:20 IST" name="setup" finished-at="2025-11-23T21:16:24 IST" duration-ms="4120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:24 IST" name="pageSetup" finished-at="2025-11-23T21:16:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="verifyUserCanRegisterSuccessfully()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:24 IST" name="verifyUserCanRegisterSuccessfully" finished-at="2025-11-23T21:16:27 IST" duration-ms="2938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCanRegisterSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC001_Registration@31dadd46]" started-at="2025-11-23T21:16:27 IST" name="tearDown" finished-at="2025-11-23T21:16:27 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testClasses.TC001_Registration -->
+    <test started-at="2025-11-27T01:29:59 IST" name="Chrome Test" finished-at="2025-11-27T01:31:14 IST" duration-ms="74853">
       <class name="testClasses.TC002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:15:50 IST" name="setup" finished-at="2025-11-23T21:16:02 IST" duration-ms="12144" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:00 IST" name="setup" finished-at="2025-11-27T01:30:06 IST" duration-ms="5402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:02 IST" name="setupPages" finished-at="2025-11-23T21:16:02 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:06 IST" name="setupPages" finished-at="2025-11-27T01:30:06 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:02 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-23T21:16:13 IST" duration-ms="11079" status="PASS">
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:06 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:16 IST" duration-ms="10224" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -161,14 +45,76 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4aea8b88cd91d446eef1dad219455c15, clickElement {id=f.A8A062761DC47D18E9011E88E7D1C170.d.0855C7345D55D27AF841D321EE2AEB9C.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50093}, goog:processID: 8512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (4aea8b88cd91d446eef1dad219455c15)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 4aea8b88cd91d446eef1dad219455c15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4aea8b88cd91d446eef1dad219455c15, clickElement {id=f.A8A062761DC47D18E9011E88E7D1C170.d.0855C7345D55D27AF841D321EE2AEB9C.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50093}, goog:processID: 8512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (4aea8b88cd91d446eef1dad219455c15)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 4aea8b88cd91d446eef1dad219455c15
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySuccessfullLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:13 IST" name="tearDown" finished-at="2025-11-23T21:16:13 IST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:16 IST" name="tearDown" finished-at="2025-11-27T01:30:18 IST" duration-ms="1869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:13 IST" name="setup" finished-at="2025-11-23T21:16:17 IST" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:18 IST" name="setup" finished-at="2025-11-27T01:30:22 IST" duration-ms="3968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,11 +125,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:17 IST" name="setupPages" finished-at="2025-11-23T21:16:17 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:22 IST" name="setupPages" finished-at="2025-11-27T01:30:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:17 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-23T21:16:29 IST" duration-ms="12556" status="FAIL">
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:22 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:37 IST" duration-ms="15548" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -222,9 +168,13 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:833)
@@ -234,11 +184,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySuccessfullLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:30 IST" name="tearDown" finished-at="2025-11-23T21:16:30 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:38 IST" name="tearDown" finished-at="2025-11-27T01:30:39 IST" duration-ms="1204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:30 IST" name="setup" finished-at="2025-11-23T21:16:35 IST" duration-ms="4752" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:39 IST" name="setup" finished-at="2025-11-27T01:30:46 IST" duration-ms="7460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,11 +199,683 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:35 IST" name="setupPages" finished-at="2025-11-23T21:16:35 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:46 IST" name="setupPages" finished-at="2025-11-27T01:30:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:35 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-23T21:16:46 IST" duration-ms="11001" status="PASS">
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:46 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:56 IST" duration-ms="10093" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lsjalj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [835eaeba2b3662b2ffeb50a4e8dc9d36, clickElement {id=f.94F48047F37E3B66B06253AE95B70E7F.d.628A0A125F410FC4FCDF2E6FAD01239F.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60673}, goog:processID: 1596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (835eaeba2b3662b2ffeb50a4e8dc9d36)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 835eaeba2b3662b2ffeb50a4e8dc9d36]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [835eaeba2b3662b2ffeb50a4e8dc9d36, clickElement {id=f.94F48047F37E3B66B06253AE95B70E7F.d.628A0A125F410FC4FCDF2E6FAD01239F.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60673}, goog:processID: 1596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (835eaeba2b3662b2ffeb50a4e8dc9d36)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 835eaeba2b3662b2ffeb50a4e8dc9d36
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:56 IST" name="tearDown" finished-at="2025-11-27T01:30:58 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:30:58 IST" name="setup" finished-at="2025-11-27T01:31:02 IST" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:31:02 IST" name="setupPages" finished-at="2025-11-27T01:31:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyTitle()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:31:02 IST" name="verifyTitle" finished-at="2025-11-27T01:31:12 IST" duration-ms="10087" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [228c3543e93cc6fab9e11464e0b3c35b, clickElement {id=f.DE404574CE912631544F059C4BC4137B.d.2F729DD0834D67770F940124A66FAD68.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34231}, goog:processID: 10604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (228c3543e93cc6fab9e11464e0b3c35b)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 228c3543e93cc6fab9e11464e0b3c35b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [228c3543e93cc6fab9e11464e0b3c35b, clickElement {id=f.DE404574CE912631544F059C4BC4137B.d.2F729DD0834D67770F940124A66FAD68.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34231}, goog:processID: 10604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (228c3543e93cc6fab9e11464e0b3c35b)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 228c3543e93cc6fab9e11464e0b3c35b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.verifyTitle(TC002_Login.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@19b93fa8]" started-at="2025-11-27T01:31:12 IST" name="tearDown" finished-at="2025-11-27T01:31:14 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.TC002_Login -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-11-27T01:29:59 IST" name="Edge Test" finished-at="2025-11-27T01:31:14 IST" duration-ms="74853">
+      <class name="testClasses.TC002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:00 IST" name="setup" finished-at="2025-11-27T01:30:06 IST" duration-ms="5599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:06 IST" name="setupPages" finished-at="2025-11-27T01:30:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:06 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:16 IST" duration-ms="10168" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[virendraqa@ril.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdjas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a5ae5ee3d324b8fd23de0d8f4ec19e27, clickElement {id=f.2A11C75F244543A0A920518706C7FA93.d.4B78CC07762FA576515C3D62B80CC350.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 17256, ms:edgeOptions: {debuggerAddress: localhost:58918}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (a5ae5ee3d324b8fd23de0d8f4ec19e27)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: a5ae5ee3d324b8fd23de0d8f4ec19e27]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a5ae5ee3d324b8fd23de0d8f4ec19e27, clickElement {id=f.2A11C75F244543A0A920518706C7FA93.d.4B78CC07762FA576515C3D62B80CC350.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 17256, ms:edgeOptions: {debuggerAddress: localhost:58918}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (a5ae5ee3d324b8fd23de0d8f4ec19e27)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: a5ae5ee3d324b8fd23de0d8f4ec19e27
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:16 IST" name="tearDown" finished-at="2025-11-27T01:30:17 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:17 IST" name="setup" finished-at="2025-11-27T01:30:22 IST" duration-ms="4858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:22 IST" name="setupPages" finished-at="2025-11-27T01:30:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:22 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:38 IST" duration-ms="15882" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[virendraqa@ril.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:38 IST" name="tearDown" finished-at="2025-11-27T01:30:39 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:39 IST" name="setup" finished-at="2025-11-27T01:30:46 IST" duration-ms="7451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:46 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:56 IST" duration-ms="10077" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lsjalj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [983f9686735dbbaaf1c88fe7daf27660, clickElement {id=f.D8C87E21271D2B7F925DC30D7A0D6CB1.d.54A0E191851CFFB6A79C299ADFAE71FC.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 19444, ms:edgeOptions: {debuggerAddress: localhost:60672}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (983f9686735dbbaaf1c88fe7daf27660)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 983f9686735dbbaaf1c88fe7daf27660]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [983f9686735dbbaaf1c88fe7daf27660, clickElement {id=f.D8C87E21271D2B7F925DC30D7A0D6CB1.d.54A0E191851CFFB6A79C299ADFAE71FC.e.33}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 19444, ms:edgeOptions: {debuggerAddress: localhost:60672}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (983f9686735dbbaaf1c88fe7daf27660)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 983f9686735dbbaaf1c88fe7daf27660
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:46 IST" name="setupPages" finished-at="2025-11-27T01:30:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:56 IST" name="tearDown" finished-at="2025-11-27T01:30:58 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:30:58 IST" name="setup" finished-at="2025-11-27T01:31:02 IST" duration-ms="4535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:31:02 IST" name="setupPages" finished-at="2025-11-27T01:31:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyTitle()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:31:02 IST" name="verifyTitle" finished-at="2025-11-27T01:31:12 IST" duration-ms="10099" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dadfc0c8b1bd453d27186dba1bc46228, clickElement {id=f.3D25C67AA274847E5C545708CC33357E.d.957935E24B48337554CA21EE76A44712.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8652, ms:edgeOptions: {debuggerAddress: localhost:12797}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (dadfc0c8b1bd453d27186dba1bc46228)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: dadfc0c8b1bd453d27186dba1bc46228]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=142.0.3595.94)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dadfc0c8b1bd453d27186dba1bc46228, clickElement {id=f.3D25C67AA274847E5C545708CC33357E.d.957935E24B48337554CA21EE76A44712.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 8652, ms:edgeOptions: {debuggerAddress: localhost:12797}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\suraj\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.33:4444/sess..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (dadfc0c8b1bd453d27186dba1bc46228)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: dadfc0c8b1bd453d27186dba1bc46228
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at pages.Home.clicMyAccount(Home.java:21)
+at testClasses.TC002_Login.verifyTitle(TC002_Login.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@253d9f73]" started-at="2025-11-27T01:31:12 IST" name="tearDown" finished-at="2025-11-27T01:31:14 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.TC002_Login -->
+    </test> <!-- Edge Test -->
+    <test started-at="2025-11-27T01:29:59 IST" name="Firefox Test" finished-at="2025-11-27T01:31:22 IST" duration-ms="82916">
+      <class name="testClasses.TC002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:00 IST" name="setup" finished-at="2025-11-27T01:30:09 IST" duration-ms="9166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:09 IST" name="setupPages" finished-at="2025-11-27T01:30:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:09 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:26 IST" duration-ms="17194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[virendraqa@ril.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdjas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:26 IST" name="tearDown" finished-at="2025-11-27T01:30:29 IST" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:29 IST" name="setup" finished-at="2025-11-27T01:30:36 IST" duration-ms="6703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:36 IST" name="setupPages" finished-at="2025-11-27T01:30:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:36 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:30:47 IST" duration-ms="10998" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[virendraqa@ril.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.TC002_Login.VerifySuccessfullLogin(TC002_Login.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:47 IST" name="tearDown" finished-at="2025-11-27T01:30:49 IST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:49 IST" name="setup" finished-at="2025-11-27T01:30:56 IST" duration-ms="6716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:56 IST" name="setupPages" finished-at="2025-11-27T01:30:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="VerifySuccessfullLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:30:56 IST" name="VerifySuccessfullLogin" data-provider="logindata" finished-at="2025-11-27T01:31:08 IST" duration-ms="11706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -274,34 +896,34 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySuccessfullLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:46 IST" name="tearDown" finished-at="2025-11-23T21:16:46 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:31:08 IST" name="tearDown" finished-at="2025-11-27T01:31:11 IST" duration-ms="3614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:46 IST" name="setup" finished-at="2025-11-23T21:16:52 IST" duration-ms="5470" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:31:11 IST" name="setup" finished-at="2025-11-27T01:31:18 IST" duration-ms="6627" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:52 IST" name="setupPages" finished-at="2025-11-23T21:16:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:31:18 IST" name="setupPages" finished-at="2025-11-27T01:31:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyTitle()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:52 IST" name="verifyTitle" finished-at="2025-11-23T21:16:52 IST" duration-ms="511" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:31:18 IST" name="verifyTitle" finished-at="2025-11-27T01:31:19 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@503ecb24]" started-at="2025-11-23T21:16:52 IST" name="tearDown" finished-at="2025-11-23T21:16:52 IST" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TC002_Login@331acdad]" started-at="2025-11-27T01:31:19 IST" name="tearDown" finished-at="2025-11-27T01:31:22 IST" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testClasses.TC002_Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- CrossBrowserSuite -->
 </testng-results>
