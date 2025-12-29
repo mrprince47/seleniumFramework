@@ -132,8 +132,6 @@ public class BaseTest {
 
         driverThread.set(localDriver);
         this.driver = localDriver;
-
-        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         driver.get(prop.getProperty("url"));
